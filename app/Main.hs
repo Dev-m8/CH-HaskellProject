@@ -35,21 +35,21 @@ main = do
     ]
 
 {--Results
-dev$ stack exec ch-challenge-exe
+$ stack exec ch-challenge-exe
 BOM 1
 -----
-("GRM21BR71A106KE51K",Just ("Quest",5037.0,11.34))
+("GRM21BR71A106KE51K",Just ("Quest",5037.0,5.4))
 
 BOM 2
 -----
-("MPR031EPR2",Just ("Win Source Electronics",900.0,53.849999999999994))
+("MPR031EPR2",Just ("Win Source Electronics",900.0,1.077))
 
 BOM 3
 -----
-("GRM21BR71A106KE51K",Just ("Quest",5037.0,178.875))
-("06035C220JAT2A",Just ("Digi-Key",122832.0,2.1399999999999997))
-("MBT3904DW1T1G",Just ("Future Electronics",3000.0,915.0))
+("GRM21BR71A106KE51K",Just ("Quest",5037.0,36.75))
+("06035C220JAT2A",Just ("Digi-Key",122832.0,2.0972))
+("MBT3904DW1T1G",Just ("Future Electronics",3000.0,14.945))
 ("TPS62065DSGR",Nothing)
 ("CRCW060310M0FKEBC",Nothing)
 ("RC1206FR-07100RL",Nothing)
---Results--}
+Results--}
