@@ -267,13 +267,12 @@ getPriceVal (UnitPrice x) = read x :: Double
 ---costOfParts computes total cost for given quantity---
 
 costOfParts :: Double -> [[Price]] -> Double
-costOfParts  q [] = 0
-costOfParts  q pricelist
-  | q < 1 = 0
+costOfParts  quantity [] = 0
+costOfParts  quantity pricelist
+  | quantity < 1 = 0
   | otherwise = (quantity * unitPrice)
    where     
-       applicableUnitPrices = P.head $ P.filter(\x -> (getPriceVal $ P.head x) >= q) pricelist
-       quantity = getPriceVal $ P.head applicableUnitPrices
+       applicableUnitPrices = P.head $ P.filter(\x -> (getPriceVal $ P.head x) >= quantity) pricelist
        unitPrice = getPriceVal $ P.last applicableUnitPrices
 
 
