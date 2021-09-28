@@ -1,8 +1,12 @@
 # ch-challenge
 Personal Haskell project to learn JSON parsing in Haskell
+
 Case Study objective:
+
 1. Query API to fetch pricing data for different electronic parts 
 2. Combine this pricing data to provide a total price based on the batch size a user requires
+
+
 Requirements:
 1. Implement the following function: quoteBom :: PartsMatchResponse -> [(String, Int)] -> [(String, Maybe (String, Int, Float))]
 2. PartsMatchResponse: decoded json 
