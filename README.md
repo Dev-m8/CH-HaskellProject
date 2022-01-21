@@ -3,7 +3,7 @@ Haskell project to apply aeson lib for json parsing
 
 Case Study objective:
 
-1. Query API to fetch pricing data for different electronic parts 
+1. Query API to fetch pricing data (json) for different electronic parts 
 2. Combine this pricing data to provide a total price based on the batch size a user requires
 
 
