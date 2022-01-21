@@ -1,4 +1,5 @@
 # ch-challenge
+Haskell project to apply aeson lib for json parsing
 
 Case Study objective:
 
